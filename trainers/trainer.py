@@ -5,16 +5,7 @@ import numpy as np
 import tensorflow as tf
 from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 
-
-class BaseTrain(object):
-    def __init__(self, model, data_train, data_validate, config):
-        self.model = model
-        self.train_data = data_train
-        self.val_data = data_validate
-        self.config = config
-
-    def train(self):
-        raise NotImplementedError
+from base.base_trainer import BaseTrain
 
 
 class ModelTrainer(BaseTrain):
@@ -70,3 +61,6 @@ class ModelTrainer(BaseTrain):
             epochs=self.config.trainer.EPOCHS,
             callbacks=self.callbacks,
         )
+
+    if __name__ == "__main__":
+        pass
