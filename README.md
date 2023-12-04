@@ -7,8 +7,6 @@ Folder structure
 
 ```
 ├──  base
-│   ├── base_model.py   - this file contains the abstract class of the model.
-│   └── base_data_loader.py   - this file contains the abstract class of the data loader.
 │   └── base_trainer.py   - this file contains the abstract class of the trainer.
 │
 │
@@ -28,13 +26,7 @@ Folder structure
 │
 ├── evaluate.py --  files responsible for the evaluation of different models. Loading and selecting the best model
 │ 
-├── train_bash.sh --  example bash script to run the training with different arguments
-│
-└── utils
-     ├── dirs.py
-     └── factory.py
-     └── config.py
-     └── utils.py
+└── train_bash.sh --  example bash script to run the training with different arguments
 
 
 ```
