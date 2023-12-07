@@ -3,11 +3,9 @@
 
 ## Overview
 
-This repository contains the implementation of a deep learning model for real-life violence detection using the Vision Transformer (ViT) architecture. The model is trained on the <a href="https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset/">Real Life Violence Situations Dataset</a>, hosted on Kaggle.
+This repository contains the implementation of a deep learning model for real-life violence detection using the Vision Transformer for video classification (ViViT) architecture. The model is trained on the <a href="https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset/">Real Life Violence Situations Dataset</a>, hosted on Kaggle.
 
 ## Project Structure
-
-=======
 
 - **`notebooks/`**: Jupyter notebooks for data exploration, model training, and evaluation.
 - **`src/`**: Source code for the project.
