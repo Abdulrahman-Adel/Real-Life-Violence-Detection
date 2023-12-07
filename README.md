@@ -96,7 +96,7 @@ The Vision Transformer (ViT) architecture, introduced by Alexey Dosovitskiy and 
   
 ### 5. Transformer Encoder Blocks
 
-<center><img src="assets\encoder block.png" alt="encoder block" style="float: right"></center>
+<img align="right" src="assets\encoder block.png" alt="encoder block">
 
 - The core of the ViT architecture consists of multiple layers of transformer encoder blocks.
 - Each encoder block typically includes:
